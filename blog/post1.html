@@ -206,7 +206,7 @@
   </div>
 
   <footer>
-    &copy; 2025 油揚げのホームページ
+    &copy; <span class="copyright-year">2026</span> 油揚げのホームページ
   </footer>
 
   <script>
@@ -229,6 +229,7 @@
       localStorage.setItem('dark-mode', toggle.checked);
     });
   </script>
+  <script>document.querySelectorAll('.copyright-year').forEach(function(el){el.textContent=new Date().getFullYear();});</script>
   <script src="https://keepandroidopen.org/banner.js"></script>
 </body>
 </html>

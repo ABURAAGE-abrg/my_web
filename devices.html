@@ -271,11 +271,11 @@
         
                 <!-- 4つ目の商品例 -->
                 <div class="device-item">
-                  <img src="https://www.sony.jp/products/picture/WH-1000XM5_B_01.jpg" alt="WH_1000MX5">
+                  <img src="https://www.sony.jp/products/picture/WH-1000XM5_B_01.jpg" alt="WH-1000XM5">
                   <div class="device-info">
                     <h3>
                       <a href="https://www.sony.jp/headphone/products/WH-1000XM5/?srsltid=AfmBOorK_p2G7OaTeYG4HjWSX87LvRwq0tKH5PAQgVa5t_24T47jahc5" target="_blank" rel="noopener noreferrer">
-                        SONY WH-1000MX5
+                        SONY WH-1000XM5
                       </a>
                     </h3>
                     <div class="device-price">44436円</div>
@@ -307,7 +307,7 @@
                   <div class="device-info">
                     <h3>
                       <a href="https://www.asrock.com/mb/AMD/X870%20Steel%20Legend%20WiFi/index.jp.asp" target="_blank" rel="noopener noreferrer">
-                        ASRcok X870 Steel Legend WiFi
+                        ASRock X870 Steel Legend WiFi
                       </a>
                     </h3>
                     <div class="device-price">37800円</div>
@@ -323,7 +323,7 @@
                   <div class="device-info">
                     <h3>
                       <a href="https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%209070%20XT%20Steel%20Legend%2016GB/index.jp.asp" target="_blank" rel="noopener noreferrer">
-                        ASRock AMD Radeon RX9070XT Steel Legend 16Gb
+                        ASRock AMD Radeon RX 9070 XT Steel Legend 16GB
                       </a>
                     </h3>
                     <div class="device-price">128000円</div>
@@ -353,7 +353,7 @@
   </div>
 
   <footer>
-    &copy; 2025 油揚げのホームページ
+    &copy; <span class="copyright-year">2026</span> 油揚げのホームページ
   </footer>
 
   <script>
@@ -367,6 +367,7 @@
       localStorage.setItem('dark-mode', toggle.checked);
     });
   </script>
+  <script>document.querySelectorAll('.copyright-year').forEach(function(el){el.textContent=new Date().getFullYear();});</script>
   <script src="https://keepandroidopen.org/banner.js"></script>
 </body>
 </html>
